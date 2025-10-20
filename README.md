@@ -50,34 +50,31 @@ This project explores the deployment and management of Windows Server in a VMwar
 5. **Remote Desktop Setup**
     - Enabled and tested RDP from a client machine.
     - <img width="975" height="429" alt="image" src="https://github.com/user-attachments/assets/650fe001-e66d-4ad8-9c52-cfabd8e2bc21" />
+    - <img width="975" height="423" alt="image" src="https://github.com/user-attachments/assets/dd6bf2af-58e9-4218-9b51-e79dd241eb3b" />
+
 
 
 6. **Installing and Testing IIS**
     - Added Web Server (IIS) role with FTP services.
     - Tested default web page in a client browser.
     - Published a custom HTML page.
-    - _[Insert screenshot: IIS default page or site deployment]_
+    - <img width="2558" height="1390" alt="image" src="https://github.com/user-attachments/assets/a36c3089-871a-4388-b50b-47fa4bb1405e" />
+
 
 7. **Routing and Remote Access (RRAS)**
     - Enabled server to function as NAT router and VPN server.
     - Set up subnets, IPs, and connected a client via VPN.
-    - _![VPN Connection Screenshot](screenshots/3_vpn_connection.png)_
 
 8. **File Services: FSRM Quotas and Screening**
     - Installed File Server Resource Manager.
     - Set storage quotas and file screening rules.
     - Tested and triggered alerts for file screening.
-    - _![FSRM File Screening Alert Screenshot](screenshots/4_fsrn_alert.png)_
 
-9. **Software RAID Configuration**
-    - Added new virtual disks and configured RAID (mirrored and RAID-5).
-    - Explained disk settings and outcomes.
-    - _[Insert screenshot: Disk Management utility showing RAID volumes]_
-
-10. **Shadow Copy**
+9. **Shadow Copy**
     - Enabled Shadow Copy on C: drive.
     - Demonstrated file recovery by restoring deleted files.
-    - _[Insert screenshot: Shadow Copy restore window]_
+    - <img width="2568" height="1400" alt="image" src="https://github.com/user-attachments/assets/82ae3e8c-dacf-4620-ab8e-434ca60a61ac" />
+
 
 ## 💡 Key Concepts Demonstrated
 
@@ -85,12 +82,7 @@ This project explores the deployment and management of Windows Server in a VMwar
 - Hands-on practice with Windows Server roles and features.
 - Remote management and security (RDP, VPN).
 - Web service and file service configuration.
-- RAID and backup solutions.
 - Automation via Server Manager and awareness of PowerShell options.
-
-## 🖼️ Screenshots
-
-> All screenshots are in `screenshots/`. Replace each placeholder above after adding your images.
 
 ## 📝 Learning Outcomes
 
@@ -103,9 +95,3 @@ This project explores the deployment and management of Windows Server in a VMwar
 Return to my main portfolio: [JackieG8803 IT Portfolio](https://github.com/JackieG8803)
 
 ---
-
-**Instructions:**  
-- Replace the screenshot filenames with your own images in the `screenshots/` folder.
-- Add details from your answers and observations for each lab step.
-
-Ready to copy, paste, and fill with your own content and images! Let me know if you want to expand any section or see example completed screenshots.
